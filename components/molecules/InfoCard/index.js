@@ -10,9 +10,9 @@ export default function InfoCard() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    // wait 2.5s before getting data
+    // wait 2.5s before getting first data
     // why? coz i like the loading placeholder animation :v
-    setTimeout(() => getData(), 2500);
+    setInterval(() => getData(), 2500);
   }, []);
 
   // get data from API
