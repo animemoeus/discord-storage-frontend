@@ -1,4 +1,5 @@
 import InfoCard from "../components/molecules/InfoCard";
+import Disqus from "../components/organisms/Disqus";
 
 export default function Home() {
   return (
@@ -14,6 +15,10 @@ export default function Home() {
 
         <div>
           <InfoCard />
+        </div>
+
+        <div>
+          <Disqus />
         </div>
       </div>
     </div>
