@@ -65,7 +65,7 @@ export default function InfoCard() {
                   <span className="fs-3">
                     <CountUp
                       start={0}
-                      end={info.uploaded_file}
+                      end={info.total_uploaded_files}
                       duration={5}
                       separator="."
                     />
