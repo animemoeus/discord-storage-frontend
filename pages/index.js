@@ -1,5 +1,6 @@
 import Head from "next/head";
 import InfoCard from "../components/molecules/InfoCard";
+import PackageCard from "../components/molecules/PackageCard";
 import Disqus from "../components/organisms/Disqus";
 
 export default function Home() {
@@ -31,6 +32,8 @@ export default function Home() {
         </div>
 
         <InfoCard />
+
+        <PackageCard />
 
         <Disqus />
       </div>
